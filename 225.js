@@ -160,7 +160,7 @@ function Cart() {
 	e.checkoutTo = PayPal;
 	e.email = "mualado103@gmail.com";
 	e.merchantId = "";
-	e.successUrl = "http://www.hoangdungsmartphone.top/";
+	e.successUrl = "http://smartphonethongminh1.blogspot.com/";
 	e.cancelUrl = null;
 	e.entry = "";
 	e.entryURL = "";
@@ -365,7 +365,7 @@ function Cart() {
 	};
 	e.emailCheckout = function () {
 		var e = this;
-		e.entryURL = "http://www.hoangdungsmartphone.top/p/mua-hang.html";
+		e.entryURL = "http://smartphonethongminh1.blogspot.com/";
 		window.open(e.entryURL, "_parent");
 		return
 	};
